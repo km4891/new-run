@@ -89,3 +89,18 @@ footer a {
     color: #024e76;
 }
 
+section {
+    padding: 60px;
+
+    /* background-image: url("../images/hero-bg.jpg"); */
+}
+
+/* Dot notation is the "." that precedes the class hero to indicate to the browser 
+that we're using a class as the CSS selector.*/
+
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+
+    height: 600px;
+}
+
