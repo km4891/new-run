@@ -106,6 +106,8 @@ that we're using a class as the CSS selector.*/
     background-size: cover;
 
     background-position: center;
+
+    position: relative;
 }
 
 .hero-form {
@@ -118,4 +120,10 @@ that we're using a class as the CSS selector.*/
     color: #024e76;
 
     border: solid 3px #024e76;
+
+    position: absolute;
+
+    bottom: 120px;
+
+    right: 140px;
 }
