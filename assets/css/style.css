@@ -335,3 +335,20 @@ that we're using a class as the CSS selector.*/
 
     color: white;
 }
+
+.contact h3 {
+    color: #fce138;
+
+    font-size: 32px;
+}
+
+.contact p, .contact address {
+    margin:20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contact a {
+    color: #fce138;
+}
