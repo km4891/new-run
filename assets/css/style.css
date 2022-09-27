@@ -108,6 +108,11 @@ that we're using a class as the CSS selector.*/
     background-position: center;
 
     position: relative;
+
+    /* margin: 20px;
+    background-color: white;
+    font-size: 20px;
+    color: blue; */
 }
 
 .hero-privacy {
