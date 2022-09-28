@@ -14,3 +14,6 @@ somewhere far far away
 
 ## Contribution
 Made with ❤️ by [your name or is it my name]
+
+
+### ©️1889 Run Buddy, Inc 
