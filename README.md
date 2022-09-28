@@ -1,4 +1,4 @@
-# Run Buddy
+# Run Bunz Inc
 
 ## Purpose
 A website that offers the best bunz in the biz
@@ -14,3 +14,4 @@ somewhere far far away
 
 ## Contribution
 Made with ❤️ by [your name or is it my name]
+
