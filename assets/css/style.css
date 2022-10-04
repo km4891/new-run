@@ -99,7 +99,7 @@ section {
 that we're using a class as the CSS selector.*/
 
 .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/flipped-hero-image.jpg");
 
     height: 600px;
 
