@@ -318,6 +318,24 @@ that we're using a class as the CSS selector.*/
     font-size: 46px;
 
     /* margin-top: 10px; */
+
+    flex: 1 30%;
+}
+
+.step-info {
+    flex: 2 70%;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+}
+
+.step-img {
+    flex: 1 12%;
+
+    margin-right: 20px;
 }
 
 .steps p{
@@ -354,6 +372,10 @@ that we're using a class as the CSS selector.*/
     align-items: center;
 
     justify-content: space-between;
+}
+
+.step-text {
+    flex: 12;
 }
 
 /* Trainers Section */
