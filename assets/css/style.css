@@ -378,6 +378,10 @@ that we're using a class as the CSS selector.*/
     flex: 12;
 }
 
+.step-img img {
+    max-width: 100%;
+}
+
 /* Trainers Section */
 .trainers {
     /* text-align: center; */
@@ -418,17 +422,17 @@ that we're using a class as the CSS selector.*/
 }
 
 .trainer-bio h3 {
-    font-size: 32px;
+    font-size: 28px;
 
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
 }
 
 .trainer-bio h4 {
     font-weight: lighter;
 
-    font-size: 26px;
+    font-size: 22px;
 
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .trainer-bio p {
