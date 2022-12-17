@@ -411,6 +411,8 @@ that we're using a class as the CSS selector.*/
     float: left;
 
     width: 65%;
+
+    line-height: 1.3;
 }
 
 .text-left {
@@ -438,7 +440,7 @@ that we're using a class as the CSS selector.*/
 .trainer-bio p {
     font-size: 17px;
 
-    line-height: 1.3;
+    /* line-height: 1.3; */
 }
 
 /* Contact Info */
