@@ -71,7 +71,9 @@ header nav ul li {
 
 header nav li a {
 
-    margin: 0 30px;
+    /* margin: 0 30px; */
+
+    padding: 10px 15px;
 
     font-weight: lighter;
 
@@ -144,6 +146,8 @@ that we're using a class as the CSS selector.*/
     justify-content: center;
 
     flex-wrap: wrap;
+
+    align-items: flex-start;
 }
 
 .hero-privacy {
@@ -189,7 +193,7 @@ that we're using a class as the CSS selector.*/
 
     font-size: 18px;
 
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -273,7 +277,7 @@ that we're using a class as the CSS selector.*/
 }
 
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
 
     color: #024e76;
 
