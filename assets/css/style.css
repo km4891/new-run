@@ -521,3 +521,21 @@ that we're using a class as the CSS selector.*/
 .flex-row{
     display: flex;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS */
+@media screen and (max-width: 980px) {
+    /*applied to any screen under 980px */
+   
+}
+
+/* MEDIA QUERY FOR TABLETS */
+@media screen and (max-width: 768px) {
+    /* applied to any screen under 768px */
+    
+}
+
+/* MEDIA QUERY FOR MOBILE PHONE */
+@media screen and (max-width: 575px) {
+    /* applied to any screen under 575px */
+
+}
