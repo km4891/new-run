@@ -522,6 +522,18 @@ that we're using a class as the CSS selector.*/
     display: flex;
 }
 
+.service-grid-container {
+    display: grid;
+}
+
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS */
 @media screen and (max-width: 980px) {
     /*applied to any screen under 980px */
@@ -639,3 +651,4 @@ that we're using a class as the CSS selector.*/
     }
 
 }
+
