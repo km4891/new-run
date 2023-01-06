@@ -523,29 +523,20 @@ that we're using a class as the CSS selector.*/
 }
 
 .service-grid-container {
-    max-width: 940px;
-    margin: 0 auto;
-    display: grid;
+    
     /* 1FR=25% of the available space */
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 100px);
-    grid-gap: 10px;
-    grid-auto-flow: column;
+    
 }
 
 .service-grid-item {
     /* An em is a unit of measurement, relative to the size of the font; 
     therefore, in a typeface set at a font-size of 16px, one em is 16px. */
-    padding: 1em;
-    background-color: orange;
-    border: solid;
-    color: black;
+    
 }
 
-.box1 {
-    grid-column: 1/2;
-    grid-row: 1/3;
-}
+
+
+
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS */
 @media screen and (max-width: 980px) {
