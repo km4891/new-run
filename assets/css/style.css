@@ -522,17 +522,33 @@ that we're using a class as the CSS selector.*/
 }
 .service-grid-container {
     /* 1FR=25% of the available space */
+    background: lightyellow;
+    width: 80%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-template-rows: repeat(6, 1fr);
+    /* repeat(iterator, size) */
+    grid-template-columns: 1fr repeat(2, 4fr);
+    grid-template-rows: repeat(5, 1fr) 2fr;
+    border: 2px solid #024e76;
+    color:  #024e76;
+    font-size: 1.2rem;
     
 }
 
 .service-grid-item {
     /* An em is a unit of measurement, relative to the size of the font; 
     therefore, in a typeface set at a font-size of 16px, one em is 16px. */
-    
+    padding: 15px 0;
+    border: 2px solid #024e76;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
+/*targets elements with both classes */
+.service-grid-item.basic {
+    grid-column: 2 / span 1;
+  }
 
 
 
