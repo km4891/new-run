@@ -550,6 +550,22 @@ that we're using a class as the CSS selector.*/
     grid-column: 2 / span 1;
   }
 
+.service-grid-item.both {
+    grid-column: 2 / span 2;
+  }
+
+.service-grid-item.cancel {
+    writing-mode: vertical-lr;
+    grid-column: 1;
+    grid-row: 1 / -1;
+    transform: rotate(180deg);
+}
+
+.grid-head, .grid-price, .service-grid-item.cancel {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 
 
 
