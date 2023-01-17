@@ -278,23 +278,11 @@ that we're using a class as the CSS selector.*/
 
 .section-title {
     font-size: 48px;
-
+    border-bottom: 3px solid;
     color: #024e76;
-
-    /* margin-bottom: 35px; */
-
-    /* padding: 0 100px 20px 100px; */
-
-    /* border-bottom: 3px solid; */
-
-    display: inline-block;
-
     padding-bottom: 20px;
-
     text-align: center;
-
     margin: 0 auto 35px auto;
-
     width: 50%;
 }
 
@@ -522,9 +510,21 @@ that we're using a class as the CSS selector.*/
     display: flex;
 }
 
+/* SERVICE STYLES */
+.services{
+    background: #fce138;
+}
+
+.service-grid-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 .service-grid-container {
-    
     /* 1FR=25% of the available space */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(6, 1fr);
     
 }
 
