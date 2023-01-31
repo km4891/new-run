@@ -37,6 +37,8 @@ header h1 {
 
     margin: 0;  
 
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
     /* display: inline; */
 }
 
@@ -78,6 +80,8 @@ header nav li a {
     font-weight: lighter;
 
     font-size: 1.55vw;
+
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 footer {
@@ -161,7 +165,7 @@ that we're using a class as the CSS selector.*/
 }
 
 .hero-form {
-    background-color: #fce138;
+    background-color: rgba(252, 225, 56, 0.8);
 
     padding: 20px;
 
@@ -180,6 +184,10 @@ that we're using a class as the CSS selector.*/
     width: 40%;
 
     margin: 3.5%;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    border-radius: 15px;
 }
 
 .hero-cta {
@@ -203,6 +211,8 @@ that we're using a class as the CSS selector.*/
 
     color: #fce138;
 
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 
 .hero-form p {
@@ -214,10 +224,6 @@ that we're using a class as the CSS selector.*/
 
     margin: 0;
 
-}
-
-.hero-form p {
-    margin: 5px 0 15px 0;
 }
 
 .form-input {
@@ -234,6 +240,8 @@ that we're using a class as the CSS selector.*/
     width: 100%;
 
     margin-bottom: 15px;
+
+    border-radius: 10px;
 }
 
 .hero-form label {
@@ -250,6 +258,9 @@ that we're using a class as the CSS selector.*/
     padding: 10px 20px;
 
     font-size: 16px;
+
+    border-radius: 10px;
+
 }
 
 /* .intro {
@@ -490,6 +501,8 @@ that we're using a class as the CSS selector.*/
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 10px;
+
   }
   
   .contact-form button {
@@ -500,6 +513,8 @@ that we're using a class as the CSS selector.*/
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
+
   }
   
   .contact-info a {
