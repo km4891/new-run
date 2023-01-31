@@ -388,8 +388,6 @@ that we're using a class as the CSS selector.*/
 
     width: 80%;
 
-    border-bottom: 1px solid #39a6b2;
-
     display: flex;
 
     flex-wrap: wrap;
@@ -405,6 +403,10 @@ that we're using a class as the CSS selector.*/
 
 .step-img img {
     max-width: 100%;
+}
+
+.step:not(:last-child) {
+    border-bottom: 1px solid #39a6b2;
 }
 
 /* Trainers Section */
