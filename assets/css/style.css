@@ -7,11 +7,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+  }
+  
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
 
-    color: #39a6b2;
+    color: var(--tertiary-color);
 }
 
 /* apply styles to header */
@@ -19,7 +26,7 @@ body {
 header {
     padding: 20px 35px;
 
-    background-color: #39a6b2;
+    background-color: var(--tertiary-color);
 
     display: flex;
 
@@ -41,7 +48,7 @@ header h1 {
 
     font-size: 36px;
 
-    color: #fce138;
+    color: var(--primary-color);
 
     margin: 0;  
 
@@ -51,7 +58,7 @@ header h1 {
 }
 
 header a {
-    color: #fce138;
+    color: var(--primary-color);
 
     text-decoration: none;
 }
@@ -93,15 +100,15 @@ header nav li a {
 }
 
 header nav ul li a:hover {
-    background: #fce138;
-    color: #024e76;
+    background: var(--primary-color);
+    color: var(--secondary-color);
     border-radius: 15px;
     text-shadow: none;
 }
 
 
 footer {
-    background: #fce138;
+    background: var(--primary-color);
 
     width: 100%;
 
@@ -117,7 +124,7 @@ footer {
 footer h2 {
     /* display: inline;     */
 
-    color: #024e76;
+    color: var(--secondary-color);
 
     font-size: 30px;
 
@@ -133,7 +140,7 @@ footer div {
 }
 
 footer a {
-    color: #024e76;
+    color: var(--secondary-color);
 }
 
 section {
@@ -184,9 +191,9 @@ that we're using a class as the CSS selector.*/
 
     /* width: 500px; */
 
-    color: #024e76;
+    color: var(--secondary-color);
 
-    border: solid 3px #024e76;
+    border: solid 3px var(--secondary-color);
 
     /* position: absolute; */
 
@@ -222,7 +229,7 @@ that we're using a class as the CSS selector.*/
 
     font-size: 55px;
 
-    color: #fce138;
+    color: var(--primary-color);
 
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
@@ -240,7 +247,7 @@ that we're using a class as the CSS selector.*/
 }
 
 .form-input {
-    border: 1px solid #024e76;
+    border: 1px solid var(--secondary-color);
 
     display: block;
 
@@ -248,7 +255,7 @@ that we're using a class as the CSS selector.*/
 
     font-size: 16px;
 
-    color: #024e76;
+    color: var(--secondary-color);
 
     width: 100%;
 
@@ -268,9 +275,9 @@ that we're using a class as the CSS selector.*/
 }
 
 .hero-form button {
-    color: #fce138;
+    color: var(--primary-color);
 
-    background-color: #024e76;
+    background-color: var(--secondary-color);
 
     border: none;
 
@@ -283,7 +290,7 @@ that we're using a class as the CSS selector.*/
 }
 
 .hero-form button:hover {
-    background-color: #39a6b2;
+    background-color: var(--tertiary-color);
 }
 
 .radio-wrapper input, .checkbox-wrapper input {
@@ -302,7 +309,7 @@ that we're using a class as the CSS selector.*/
     height: 20px;
     width: 20px;
     background: rgba(255,255,255,0.75);
-    border: 1px solid #024e76;
+    border: 1px solid var(--secondary-color);
     position: absolute;
     top: -4px;
     left: -30px;
@@ -320,15 +327,15 @@ that we're using a class as the CSS selector.*/
     position: absolute;
     left: -29px;
     top: -3px;
-    background-image: radial-gradient(circle, #39a6b2, #024e76);
+    background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color));
 }
 
 .checkbox-wrapper label::after {
     content: "";
     height: 6px;
     width: 14px;
-    border-left: 2px solid #024e76;
-    border-bottom: 2px solid #024e76;
+    border-left: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
     position: absolute;
     left: -26px;
     top: 1px;
@@ -352,7 +359,7 @@ that we're using a class as the CSS selector.*/
 .intro p {
     line-height: 1.7;
 
-    color: #39a6b2;
+    color: var(--tertiary-color);
 
     width: 80%;
 
@@ -366,13 +373,13 @@ that we're using a class as the CSS selector.*/
 .steps {
     /* text-align: center; */
 
-    background: #fce138;
+    background: var(--primary-color);
 }
 
 .section-title {
     font-size: 48px;
     border-bottom: 3px solid;
-    color: #024e76;
+    color: var(--secondary-color);
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -380,11 +387,11 @@ that we're using a class as the CSS selector.*/
 }
 
 .primary-border {
-    border-color: #fce138;
+    border-color: var(--primary-color);
 }
 
 .secondary-border {
-    border-color: #39a6b2;
+    border-color: var(--tertiary-color);
 }
 
 /* .steps div{
@@ -398,7 +405,7 @@ that we're using a class as the CSS selector.*/
 } */
 
 .step h3 {
-    color: #024e76;
+    color: var(--secondary-color);
 
     font-size: 46px;
 
@@ -424,7 +431,7 @@ that we're using a class as the CSS selector.*/
 }
 
 .steps p{
-    color: #39a6b2;
+    color: var(--tertiary-color);
 
     font-size: 23px;
 }
@@ -438,7 +445,7 @@ that we're using a class as the CSS selector.*/
 
     line-height: 1.5;
 
-    color: #024e76;
+    color: var(--secondary-color);
 }
 
 .step {
@@ -466,7 +473,7 @@ that we're using a class as the CSS selector.*/
 }
 
 .step:not(:last-child) {
-    border-bottom: 1px solid #39a6b2;
+    border-bottom: 1px solid var(--tertiary-color);
 }
 
 /* Trainers Section */
@@ -489,9 +496,9 @@ that we're using a class as the CSS selector.*/
 
     margin: 20px;
 
-    background: #024e76;
+    background: var(--secondary-color);
 
-    color:#fce138;
+    color:var(--primary-color);
 
     flex: 1;
 
@@ -538,11 +545,11 @@ that we're using a class as the CSS selector.*/
 
 /* Contact Info */
 .contact {
-    background: #024e76;
+    background: var(--secondary-color);
   }
   
   .contact h2 {
-    color: #fce138;
+    color: var(--primary-color);
   }
   
   .contact-info {
@@ -565,7 +572,7 @@ that we're using a class as the CSS selector.*/
   }
   
   .contact-info h3 {
-    color: #fce138;
+    color: var(--primary-color);
     font-size: 32px;
   }
   
@@ -577,11 +584,11 @@ that we're using a class as the CSS selector.*/
   }
   
   .contact-form input, .contact-form textarea {
-    border: 1px solid #024e76;
+    border: 1px solid var(--secondary-color);
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    color: #024e76;
+    color: var(--secondary-color);
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
@@ -597,8 +604,8 @@ that we're using a class as the CSS selector.*/
   .contact-form button {
     width: 100%;
     border: none;
-    background: #fce138;
-    color: #024e76;
+    background: var(--primary-color);
+    color: var(--secondary-color);
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
@@ -607,12 +614,12 @@ that we're using a class as the CSS selector.*/
   }
 
   .contact-form button:hover {
-    color: #fce138;
-    background: #39a6b2;
+    color: var(--primary-color);
+    background: var(--tertiary-color);
   }
   
   .contact-info a {
-    color: #fce138;
+    color: var(--primary-color);
   }
 
 .flex-row{
@@ -621,7 +628,7 @@ that we're using a class as the CSS selector.*/
 
 /* SERVICE STYLES */
 .services{
-    background: #fce138;
+    background: var(--primary-color);
 }
 
 .service-grid-wrapper{
@@ -637,8 +644,8 @@ that we're using a class as the CSS selector.*/
     /* repeat(iterator, size) */
     grid-template-columns: 1fr repeat(2, 4fr);
     grid-template-rows: repeat(5, 1fr) 2fr;
-    border: 2px solid #024e76;
-    color:  #024e76;
+    border: 2px solid var(--secondary-color);
+    color:  var(--secondary-color);
     font-size: 1.2rem;
     
 }
@@ -647,7 +654,7 @@ that we're using a class as the CSS selector.*/
     /* An em is a unit of measurement, relative to the size of the font; 
     therefore, in a typeface set at a font-size of 16px, one em is 16px. */
     padding: 15px 0;
-    border: 2px solid #024e76;
+    border: 2px solid var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: center;
